@@ -1,0 +1,26 @@
+CREATE TABLE [dbo].[taxi_rides] (
+
+	[vendorID] int NULL, 
+	[lpepPickupDatetime] datetime2(6) NULL, 
+	[lpepDropoffDatetime] datetime2(6) NULL, 
+	[passengerCount] int NULL, 
+	[tripDistance] float NULL, 
+	[puLocationId] varchar(8000) NULL, 
+	[doLocationId] varchar(8000) NULL, 
+	[pickupLongitude] float NULL, 
+	[pickupLatitude] float NULL, 
+	[dropoffLongitude] float NULL, 
+	[dropoffLatitude] float NULL, 
+	[rateCodeID] int NULL, 
+	[storeAndFwdFlag] varchar(8000) NULL, 
+	[paymentType] int NULL, 
+	[fareAmount] float NULL, 
+	[extra] float NULL, 
+	[mtaTax] float NULL, 
+	[improvementSurcharge] varchar(8000) NULL, 
+	[tipAmount] float NULL, 
+	[tollsAmount] float NULL, 
+	[ehailFee] float NULL, 
+	[totalAmount] float NULL, 
+	[tripType] int NULL
+);
